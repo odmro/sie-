@@ -1,0 +1,280 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?k23maz');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?k23maz#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?k23maz') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?k23maz') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?k23maz##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sie-astrology-earth {
+  &:before {
+    content: $sie-astrology-earth; 
+  }
+}
+.sie-astrology-mercury {
+  &:before {
+    content: $sie-astrology-mercury; 
+  }
+}
+.sie-astrology-neptune {
+  &:before {
+    content: $sie-astrology-neptune; 
+  }
+}
+.sie-astrology-sun {
+  &:before {
+    content: $sie-astrology-sun; 
+  }
+}
+.sie-celtic-rune {
+  &:before {
+    content: $sie-celtic-rune; 
+  }
+}
+.sie-celtic-rune2 {
+  &:before {
+    content: $sie-celtic-rune2; 
+  }
+}
+.sie-celtic-rune3 {
+  &:before {
+    content: $sie-celtic-rune3; 
+  }
+}
+.sie-celtic-rune4 {
+  &:before {
+    content: $sie-celtic-rune4; 
+  }
+}
+.sie-celtic-rune5 {
+  &:before {
+    content: $sie-celtic-rune5; 
+  }
+}
+.sie-elemental2-air {
+  &:before {
+    content: $sie-elemental2-air; 
+  }
+}
+.sie-elemental2-earth {
+  &:before {
+    content: $sie-elemental2-earth; 
+  }
+}
+.sie-elemental2-fire {
+  &:before {
+    content: $sie-elemental2-fire; 
+  }
+}
+.sie-elemental2-water {
+  &:before {
+    content: $sie-elemental2-water; 
+  }
+}
+.sie-elemental-air {
+  &:before {
+    content: $sie-elemental-air; 
+  }
+}
+.sie-elemental-earth {
+  &:before {
+    content: $sie-elemental-earth; 
+  }
+}
+.sie-elemental-fire {
+  &:before {
+    content: $sie-elemental-fire; 
+  }
+}
+.sie-elemental-water {
+  &:before {
+    content: $sie-elemental-water; 
+  }
+}
+.sie-illuminati-all-seeing-eye {
+  &:before {
+    content: $sie-illuminati-all-seeing-eye; 
+  }
+}
+.sie-illuminati-eye-hand {
+  &:before {
+    content: $sie-illuminati-eye-hand; 
+  }
+}
+.sie-religion-ankh {
+  &:before {
+    content: $sie-religion-ankh; 
+  }
+}
+.sie-religion-bell {
+  &:before {
+    content: $sie-religion-bell; 
+  }
+}
+.sie-religion-candles {
+  &:before {
+    content: $sie-religion-candles; 
+  }
+}
+.sie-religion-cauldron {
+  &:before {
+    content: $sie-religion-cauldron; 
+  }
+}
+.sie-religion-crystal {
+  &:before {
+    content: $sie-religion-crystal; 
+  }
+}
+.sie-religion-incense-burner {
+  &:before {
+    content: $sie-religion-incense-burner; 
+  }
+}
+.sie-religion-knife {
+  &:before {
+    content: $sie-religion-knife; 
+  }
+}
+.sie-religion-medium {
+  &:before {
+    content: $sie-religion-medium; 
+  }
+}
+.sie-religion-menorah {
+  &:before {
+    content: $sie-religion-menorah; 
+  }
+}
+.sie-religion-palmistry {
+  &:before {
+    content: $sie-religion-palmistry; 
+  }
+}
+.sie-religion-pendulum {
+  &:before {
+    content: $sie-religion-pendulum; 
+  }
+}
+.sie-religion-pentagram {
+  &:before {
+    content: $sie-religion-pentagram; 
+  }
+}
+.sie-religion-potion {
+  &:before {
+    content: $sie-religion-potion; 
+  }
+}
+.sie-religion-singing-bowl {
+  &:before {
+    content: $sie-religion-singing-bowl; 
+  }
+}
+.sie-religion-spirit-board {
+  &:before {
+    content: $sie-religion-spirit-board; 
+  }
+}
+.sie-religion-tarot {
+  &:before {
+    content: $sie-religion-tarot; 
+  }
+}
+.sie-religion-voodoo {
+  &:before {
+    content: $sie-religion-voodoo; 
+  }
+}
+.sie-religion-voodoo-doll {
+  &:before {
+    content: $sie-religion-voodoo-doll; 
+  }
+}
+.sie-religion-yin-yang {
+  &:before {
+    content: $sie-religion-yin-yang; 
+  }
+}
+.sie-zodiac-aquarius {
+  &:before {
+    content: $sie-zodiac-aquarius; 
+  }
+}
+.sie-zodiac-aries {
+  &:before {
+    content: $sie-zodiac-aries; 
+  }
+}
+.sie-zodiac-cancer {
+  &:before {
+    content: $sie-zodiac-cancer; 
+  }
+}
+.sie-zodiac-capricorn {
+  &:before {
+    content: $sie-zodiac-capricorn; 
+  }
+}
+.sie-zodiac-gemini {
+  &:before {
+    content: $sie-zodiac-gemini; 
+  }
+}
+.sie-zodiac-leo {
+  &:before {
+    content: $sie-zodiac-leo; 
+  }
+}
+.sie-zodiac-libra {
+  &:before {
+    content: $sie-zodiac-libra; 
+  }
+}
+.sie-zodiac-pisces {
+  &:before {
+    content: $sie-zodiac-pisces; 
+  }
+}
+.sie-zodiac-sagittarius {
+  &:before {
+    content: $sie-zodiac-sagittarius; 
+  }
+}
+.sie-zodiac-scorpio {
+  &:before {
+    content: $sie-zodiac-scorpio; 
+  }
+}
+.sie-zodiac-taurus {
+  &:before {
+    content: $sie-zodiac-taurus; 
+  }
+}
+.sie-zodiac-virgo {
+  &:before {
+    content: $sie-zodiac-virgo; 
+  }
+}
+
